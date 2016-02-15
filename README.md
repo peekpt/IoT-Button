@@ -1,5 +1,5 @@
 # IoT-Button
-This is an ESP8266 Configurable Internet of Things button via Wi-Fi to trigger an event at with ifttt.com
+This is an ESP8266 Arduino Configurable Internet of Things button via Wi-Fi to trigger an event at with ifttt.com
 
 What you need
   - An Esp8266-12E or compatible module with a reset button
@@ -34,9 +34,10 @@ What you need
   - Failed -> 2 blinks.
 
 # Flash the sketch
-
-  You need the Arduino IDE
-  On Settings add this url "http://arduino.esp8266.com/stable/package_esp8266com_index.json" on Aditional Board Manager URLs.
+  To enter FLASH MODE Pull up CH_PD with a resitor (1k) to 3.3v permanently. To flash Power cycle the device with GPIO0 set to GND.
+  To enter running mode remove GPIO0 from GND and leave the pullup 3.3v resistor.
+  You need the Arduino IDE. 
+  Add this url "http://arduino.esp8266.com/stable/package_esp8266com_index.json" on settings in the Aditional Board Manager URLs field.
   Install the Esp8266 community boards on Boards Manager (Tools>Boards>Boards Manager) 
   Select your module.
   
