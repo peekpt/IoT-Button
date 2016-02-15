@@ -42,3 +42,9 @@ What you need
   Select your module.
   
 Don't forget to power cycle the module everytime you flash the firmware.
+
+# Credits
+  - Based on Garth V. Houwen IoT Button https://github.com/garthvh/esp8266button 
+  
+# License
+MIT License
