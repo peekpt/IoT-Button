@@ -26,6 +26,9 @@ What you need
   Once you set your configuration everytime you reset the module tries to connect to wifi network, once connected it triggers the ifttt event and enters info mode at SSID: BUTTON and IP 192.168.1.1 (same as configuration). If you not access info mode in one minute it sleeps. If you access you got 10 minutes and then it sleeps.
 
   You can clear your settings on info mode.
+  
+  ![Flow chart](https://raw.githubusercontent.com/peekpt/IoT-Button/master/chart.png)
+  
 
 # LED feedback
   - Configuration Mode -> continuous blinking.
